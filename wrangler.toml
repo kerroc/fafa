@@ -3,7 +3,7 @@ main = "src/index.js"
 compatibility_date = "2024-10-01"
 
 [assets]
-directory = "./src/public"
+directory = "src/public"
 
 [[d1_databases]]
 binding = "DB"
@@ -13,7 +13,3 @@ database_name = "notes-db"
 [[kv_namespaces]]
 binding = "NOTES_KV"
 id = "995de993252841e3a4930130e8d5865b"
-
-[[r2_buckets]]
-binding = "NOTES_R2_BUCKET"
-bucket_name = "YOUR_R2_BUCKET_NAME"
