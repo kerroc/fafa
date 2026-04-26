@@ -9,6 +9,6 @@
 		"start": "npx wrangler dev"
 	},
 	"devDependencies": {
-		"wrangler": "^4.33.0"
+		"wrangler": "^4.85.0"
 	}
 }
